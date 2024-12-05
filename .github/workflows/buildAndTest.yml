@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Select Xcode version
-        run: sudo xcode-select -s /Applications/Xcode_16.0.app
+        run: sudo xcode-select -s /Applications/Xcode_16.1.app
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -24,4 +24,4 @@ jobs:
         run: gem install fastlane 
 
       - name: Run tests
-        run: cd Peregrinus/; fastlane tests
+        run: cd Vayoo/; fastlane tests
