@@ -12,6 +12,8 @@ struct VayooApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            // Comentário
+            // Mais um comentário
         }
     }
 }
