@@ -26,13 +26,4 @@ final class RootInteractor: Interactor, RootInteractable {
             router?.routeToLogin()
         }
     }
-    
-    // MARK: Navigation -
-    func didLoginSuccessfully() {
-        
-    }
-    
-    func didRequestLogout() {
-        
-    }
 }

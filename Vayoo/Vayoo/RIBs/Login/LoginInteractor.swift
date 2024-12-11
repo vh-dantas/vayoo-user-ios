@@ -16,6 +16,6 @@ final class LoginInteractor: Interactor, LoginInteractable {
     private var cancellables = Set<AnyCancellable>()
     
     func didLoginSuccessfully() {
-        
+        router?.routeToHome()
     }
 }
